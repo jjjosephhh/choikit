@@ -1,0 +1,20 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test coverage files
+*.out
+
+# Go generated files
+*.pb.go
+*.pb.gw.go
+*.swagger.json
+
+# Ignore the vendor directory
+/vendor/
+
+# Environment variables
+.env
